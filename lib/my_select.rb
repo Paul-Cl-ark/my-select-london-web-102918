@@ -10,7 +10,7 @@ def my_select(collection)
     end
   
     while i2 < helper.length
-      if i2 == 
+      if helper[i2] == true 
       helper.push(yield selected[i]) 
     i += 1
     end
