@@ -16,6 +16,5 @@ def my_select(collection)
     i += 1
       end
     end
-  end
   selected
 end
