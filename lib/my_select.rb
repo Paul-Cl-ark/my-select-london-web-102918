@@ -9,9 +9,9 @@ def my_select(collection)
     i += 1
     end
   
-    while i2 < collection.length
+    while i2 < helper.length
       if i2 == 
-      helper.push(yield collection[i]) 
+      helper.push(yield selected[i]) 
     i += 1
     end
     
