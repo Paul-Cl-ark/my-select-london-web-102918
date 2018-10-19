@@ -4,4 +4,5 @@ def my_select(collection)
     yield
   i += 1
   end
+  collection
 end
