@@ -6,7 +6,6 @@ def my_select(collection)
     while i < collection.length
       helper.push(yield collection[i]) 
         i += 1
-      end
     end
   
     while i2 < helper.length
