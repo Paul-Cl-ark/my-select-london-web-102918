@@ -5,8 +5,15 @@ def my_select(collection)
   selected = []
     while i < collection.length
       if i == 
-      selected.push(yield collection[i]) 
+      helper.push(yield collection[i]) 
     i += 1
-  end
+    end
+  
+    while i2 < collection.length
+      if i2 == 
+      helper.push(yield collection[i]) 
+    i += 1
+    end
+    
   selected
 end
