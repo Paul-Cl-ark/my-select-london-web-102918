@@ -4,7 +4,6 @@ def my_select(collection)
   helper = []
   selected = []
     while i < collection.length
-      if i == 
       helper.push(yield collection[i]) 
         i += 1
       end
