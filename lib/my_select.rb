@@ -11,9 +11,8 @@ def my_select(collection)
   
     while i2 < helper.length
       if helper[i2] == true 
-      selected.push(yield collection[i]) 
+      selected.push(yield collection[i2]) 
     i += 1
     end
-    
   selected
 end
