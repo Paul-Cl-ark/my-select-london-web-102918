@@ -14,6 +14,8 @@ def my_select(collection)
       if helper[i2] == true 
       selected.push(yield collection[i2]) 
         i2 += 1
+      else 
+        i2 += 1
       end
     end
   selected
