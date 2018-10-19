@@ -14,5 +14,6 @@ def my_select(collection)
       selected.push(yield collection[i2]) 
     i += 1
     end
+  end
   selected
 end
